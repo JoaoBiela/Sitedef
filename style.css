@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    color: white;
+}
+
+body{
+    height: 100vh;
+    background-color: #292929;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu{
+width: 80px;
+height: 100%;
+background-color: #292929;
+padding: 40px 0 40px 1%;
+box-shadow: 3px 0 0 #FF0077;
+position: fixed;
+top: 0;
+left: 0;
+overflow: hidden;
+transition: .2s;
+}
+
+.menu:hover{
+    width: 300px;
+}
+
+.expandir{
+    width: 100%;
+    padding: 10px;
+}
+
+.expandir > i{
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu{
+    transition: .2s;
+}
+
+ul li.item-menu:hover{
+    background: #FF0077;
+}
+
+ul li.item-menu a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display:flex;
+    margin-bottom:20px;
+    line-height: 40px;
+}
+
+ul li.item-menu a .texto-menu{
+    margin-left: 40px;
+}
+
+ul li.item-menu a .icone > i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.titulo{
+    height: 120px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 42px;
+    background-color: #1b1b1b;
+    border-bottom:2px solid #FF0077;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    color: #fff;
+}
+
+
+.receitas{
+    float: left;
+    height: 600px;
+    width: 300px;
+    text-align: center;
+    border: 2px solid #FF0077;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin: 85px;
+    border-radius: 2%;
+    background-color: #1b1b1b;
+    box-shadow: 5px 5px #131313;
+}
+
+.imagem-bolo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.imagem-bolo2{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.borda-imagem{
+    width: 156px;
+    height: 156px;
+    border-radius: 100%;
+    border: 3px solid #FF0077;
+    margin-top: 15px;
+}
+.button{
+    width: 150px;
+    height: 50px;
+    background-color: #FF0077;
+    color: white;
+    position: bottom;
+    margin-top: 150px;
+    border-radius: 6%;
+}
+
+.ingredientes{
+    width: 400px;
+    height: 800px;
+    text-align: left;
+    float: left;
+    margin-top: 50px;
+}
+.contato{
+    width: 450px;
+    height: 150px;
+    float: left;
+    margin: 50px;
+}
+.content2{
+    height: 50px;
+    width: 100%;
+    float: left;
+    text-align: left;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.links{
+    font-size: 30px;
+    padding: 10px 2%;
+}
+.devs{
+    float: left;
+    height: 600px;
+    width: 300px;
+    border: 2px solid #FF0077;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin: 85px;
+    border-radius: 2%;
+    background-color: #1b1b1b;
+    box-shadow: 5px 5px #131313;
+}
+
